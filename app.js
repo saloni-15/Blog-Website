@@ -1,10 +1,11 @@
+require('dotenv').config()
 const express = require("express");
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const _ = require("lodash");
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb+srv://admin-saloni:4a6Gcru5rAd9Xjc@cluster0.zkxxg.mongodb.net/blogDB", {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect("mongodb+srv://<yourUserName>:<yourPassword>@cluster0.zkxxg.mongodb.net/blogDB", {useNewUrlParser: true, useUnifiedTopology: true});
 
 const postSchema = new mongoose.Schema({
   title: String,
