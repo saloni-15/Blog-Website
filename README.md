@@ -10,10 +10,10 @@ This is the home page of the website which shows all the posts truncated to 100 
 To see full post, click "Read More".
 
 ## Full Post
-[img2](https://github.com/saloni-15/Blog-Website/blob/main/pictures/img2.PNG)
+![img2](https://github.com/saloni-15/Blog-Website/blob/main/pictures/img2.PNG)
 
 ## Compose your own post
-![img3]()
+![img3](https://github.com/saloni-15/Blog-Website/blob/main/pictures/img3.PNG)
 
 Click on "Compose" on nav bar to publish your own post.
 
